@@ -1,0 +1,23 @@
+{
+    "name": "lazka/renovate-composer-platform-test",
+    "autoload": {
+        "psr-4": {
+            "Lazka\\RenovateComposerPlatformTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Christoph Reiter",
+            "email": "reiter.christoph@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0"
+    },
+    "config": {
+        "platform": {
+          "php": "7.3"
+        }
+    }
+}
