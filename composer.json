@@ -11,7 +11,9 @@
             "email": "reiter.christoph@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3 || ^8.0"
+    },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.0"
     },
