@@ -1,11 +1,6 @@
 {
   "extends": [
     "config:base",
-    "group:allNonMajor",
-    ":automergePatch"
   ],
-  "rangeStrategy": "update-lockfile",
-  "lockFileMaintenance": {
-    "enabled": true
-  }
+  "rangeStrategy": "update-lockfile"
 }
